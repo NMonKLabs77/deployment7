@@ -12,7 +12,7 @@ Done by: Nehemiah Monrose
 
 
 ## Purpose
-The purpose of this deployment is to demonstrate my ability to create a Dockerfile for my Banking Applicatiton, create an deploy an ECS infrastructrue with Terraform.
+The purpose of this deployment is to demonstrate my ability to create a Dockerfile for my Banking Applicatiton, create an deploy an ECS infrastructure with Terraform.
 
 ## Requirements
 
@@ -56,9 +56,9 @@ Created a Dockerfile for my Banking App that is connected to an RDS database cal
 ```
 FROM python:3.7
 
-RUN git clone https://github.com/andmulLABS01/Deployment_7AM.git
+RUN git clone https://github.com/NMonKLabs77/Deployment7.git
 
-WORKDIR Deployment_7AM
+WORKDIR Deployment7
 
 RUN pip install -r requirements.txt
 
